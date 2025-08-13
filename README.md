@@ -1,4 +1,4 @@
-# ☀️ Solar Forecasting with SARIMAX + Fourier Terms
+# Solar Forecasting with SARIMAX + Fourier Terms
 
 This project builds a **solar energy forecasting pipeline** using:
 - **PVGIS API** for historical **Plane of Array (POA)** irradiance data
@@ -12,7 +12,7 @@ The goal is to demonstrate:
 
 ---
 
-## 📌 Key Features
+## Key Features
 
 - Historical solar irradiance pulled from **PVGIS API**
 - Validation against real-world **NREL** solar farm production data
@@ -69,17 +69,7 @@ The goal is to demonstrate:
      ```
      $13,724.26
      ```
-
----
-
-## Example Outputs
-
-**Year-over-Year Overlay of Daily Solar Generation**
-![Yearly Overlay](images/yearly_overlay.png)
-
-**5-Year Forecast with SARIMAX + Fourier Terms**
-![Forecast](images/forecast_plot.png)
-
+     
 ---
 
 ## Tech Stack
