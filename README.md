@@ -5,10 +5,10 @@ This project builds a **solar energy forecasting pipeline** using:
 - **SARIMAX models** enhanced with **Fourier terms** to capture annual seasonality
 - Conversion of forecasted energy into **monetary value** using electricity rates
 
-The goal is to demonstrate:
-1. Strong statistical time series modeling skills
-2. Ability to integrate external APIs, data cleaning, and feature engineering
-3. Business interpretation by translating kWh into $ impact
+This project demonstrates:
+1. Statistical time series modeling 
+2. Integrating external APIs, data cleaning, and feature engineering
+3. Interpreting economic impact by translating kWh into $ impact
 
 ---
 
@@ -46,7 +46,7 @@ The goal is to demonstrate:
      - Panel efficiency: **18%**
      - System size: **5 kW**
    - Expressed in **kWh/day**
-   - Validation R² score: **0.607** modeled POA irradiance against NREL data
+   - Validation R² score: **0.607** to see how close modeled POA irradiance data resembeled real NREL solar farm data scaled to size
 
 3. **Exploratory Analysis**
    - Year-over-year overlays
@@ -81,6 +81,3 @@ The goal is to demonstrate:
   - [PVGIS API](https://re.jrc.ec.europa.eu/pvgis.html) – modeled irradiance
   - [NREL Solar Data](https://www.nrel.gov/grid/solar-power-data.html) – real-world validation
   - [EIA](https://www.eia.gov/electricity/data/state/) – electricity rates
-
-# Run the notebook
-jupyter notebook solar_forecast_pipeline.ipynb
